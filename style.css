@@ -248,9 +248,9 @@ body {
 .hero-title span {
     background: linear-gradient(
         90deg,
-        #00e6ff,
+        #03e9f1,
         #ffffff,
-        #00e6ff
+        #f16603
     );
     background-size: 200%;
 
@@ -495,9 +495,9 @@ body {
 
     background: linear-gradient(
         90deg,
-        #00e6ff,
+         #03e9f1,
         #ffffff,
-        #00e6ff
+        #f16603
     );
     background-size: 200%;
 
@@ -606,9 +606,9 @@ body {
 
     background: linear-gradient(
         90deg,
-        #00e6ff,
+           #03e9f1,
         #ffffff,
-        #00e6ff
+        #f16603
     );
     background-size: 200%;
 
@@ -820,9 +820,9 @@ body {
 .contact-title span {
     background: linear-gradient(
         90deg,
-        #00e6ff,
+            #03e9f1,
         #ffffff,
-        #00e6ff
+        #f16603
     );
     background-size: 200%;
 
@@ -1141,3 +1141,4 @@ body {
     section:not(.hero) { padding: 60px 25px; }
     .navbar { flex-direction: column; gap: 10px; }
 }
+
