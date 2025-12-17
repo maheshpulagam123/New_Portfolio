@@ -23,6 +23,25 @@ body {
 
     color: #fff;
 }
+/* =========================
+   MOBILE NAVBAR OVERLAP FIX
+   (NO OLD CODE CHANGED)
+========================= */
+
+:root {
+    --mobile-nav-height: 70px;
+}
+
+/* Mobile only spacing fix */
+@media (max-width: 768px) {
+
+    /* Push hero below fixed navbar */
+    .hero-2028 {
+        padding-top: calc(var(--mobile-nav-height) + 40px);
+        min-height: calc(100vh - var(--mobile-nav-height));
+    }
+
+}
 
 /* =========================
    NAVBAR 2040 – FUTURE UI
@@ -1141,4 +1160,5 @@ body {
     section:not(.hero) { padding: 60px 25px; }
     .navbar { flex-direction: column; gap: 10px; }
 }
+
 
